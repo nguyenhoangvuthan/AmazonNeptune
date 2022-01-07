@@ -56,7 +56,7 @@ public class PagingObject implements IPagingObject{
 
     @Override
     public long PageSize(List<Map<String, Object>> customers) {
-        customerpagesize = customers.size()/3 + 1;
+        customerpagesize = customers.size()/3;
         return customerpagesize;
     }
    
